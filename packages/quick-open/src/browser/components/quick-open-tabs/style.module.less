@@ -4,12 +4,15 @@
   padding: 6px 8px 0;
   margin-bottom: 8px;
   font-size: 12px;
+  user-select: none;
+  position: relative;
 }
 
 .quickopen_tabs_item {
   display: flex;
   height: 24px;
   margin-right: 16px;
+  cursor: pointer;
   &:last-of-type {
     margin-left: 0;
   }
@@ -18,7 +21,6 @@
 .quickopen_tabs_item_text {
   border-bottom: 2px solid transparent;
   padding-bottom: 2px;
-  cursor: pointer;
   color: var(--foreground);
   &.selected {
     border-bottom-color: var(--kt-tab-activeBorder);
