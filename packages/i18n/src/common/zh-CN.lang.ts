@@ -947,5 +947,8 @@ export const localizationBundle = {
     'test.result.runFinished': '测试运行完成于 {0}',
     'test.task.unnamed': '未命名任务',
     // #endregion
+
+    'connection.start.rtt': '开发人员工具：查看通信延迟',
+    'connection.stop.rtt': '开发人员工具：关闭通信延迟检查',
   },
 };

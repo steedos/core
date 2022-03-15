@@ -891,5 +891,8 @@ export const localizationBundle = {
     'test.result.runFinished': 'Test run at {0}',
     'test.task.unnamed': 'Unnamed Task',
     // #endregion
+
+    'connection.start.rtt': 'Developer Tool: Measure Connection RTT',
+    'connection.stop.rtt': 'Developer Tool: Stop Connection RTT',
   },
 };
