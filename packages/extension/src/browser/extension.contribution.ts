@@ -101,7 +101,7 @@ export class ExtensionClientAppContribution implements ClientAppContribution {
   private readonly extensionService: ExtensionService;
 
   async initialize() {
-    await this.extensionService.activate();
+    this.extensionService.activate();
     const disposer = this.webviewService.registerWebviewReviver({
       handles: (_: string) => 0,
       revive: async (id: string) =>
