@@ -51,7 +51,12 @@
     "watch": [
       "../../packages"
     ],
-    "ext": "js,json,ts"
+    "events": {
+      "restart": "lsof -i :8000 -t | xargs kill",
+      "crash": "lsof -i :8000 -t | xargs kill"
+    },
+    "ext": "js,json,ts",
+    "delay": "2000"
   },
   "dependencies": {
     "@opensumi/ide-addons": "2.15.7",
